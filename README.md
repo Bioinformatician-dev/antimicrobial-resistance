@@ -60,8 +60,8 @@ flowchart LR
 ## Installation
 
 ```bash
-git clone https://github.com/Bioinformatician-dev/amr-consensus.git
-cd amr-consensus
+git clone https://github.com/Bioinformatician-dev/antimicrobial-resistance.git
+cd antimicrobial-resistance
 pip install -e .
 
 # BLAST+ is required (not pip-installable):
