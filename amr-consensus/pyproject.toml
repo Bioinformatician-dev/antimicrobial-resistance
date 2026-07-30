@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amr-consensus"
+version = "0.1.0"
+description = "Multi-database consensus detection of antimicrobial resistance genes from assemblies"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["bioinformatics", "amr", "antimicrobial-resistance", "genomics", "blast"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "typer>=0.12",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "biopython>=1.83"]
+
+[project.scripts]
+amr-consensus = "amr_consensus.cli:app"
+
+[tool.setuptools.packages.find]
+include = ["amr_consensus*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# B008: typer.Option(...) as an argument default is the documented, correct
+# way to declare typer CLI options -- not a real "function call in default" bug.
+ignore = ["B008"]

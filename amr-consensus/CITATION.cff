@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use amr-consensus in your research, please cite it as below."
+title: "amr-consensus: Multi-database consensus detection of antimicrobial resistance genes"
+version: 0.1.0
+date-released: 2026-07-30
+authors:
+  - family-names: "Your Last Name"
+    given-names: "Your First Name"
+license: MIT
+repository-code: "https://github.com/YOUR_USERNAME/amr-consensus"
+keywords:
+  - bioinformatics
+  - antimicrobial-resistance
+  - genomics
+  - blast
+  - surveillance

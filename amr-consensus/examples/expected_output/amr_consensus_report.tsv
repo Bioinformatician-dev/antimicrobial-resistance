@@ -1,0 +1,5 @@
+contig	locus_start	locus_end	primary_gene	n_allele_variants	gene_names	supporting_databases	n_databases	best_identity	mean_identity	best_coverage	drugs	confidence_score	confidence
+contig_1_plasmid_ctxm	401	1276	blaCTX-M-150_1	1	blaCTX-M-150_1	custom	1	99.09	99.09	100.0	Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin	0.996	high
+contig_2_chromosome_mecA	801	2807	mecA_1	1	mecA_1	custom	1	100.0	100.0	100.0	Amoxicillin;Amoxicillin+Clavulanic_acid;Ampicillin;Ampicillin+Clavulanic_acid;Cefepime;Cefixime;Cefotaxime;Cefoxitin;Ceftazidime;Ertapenem;Imipenem;Meropenem;Piperacillin;Piperacillin+Tazobactam	1.0	high
+contig_3_integron_sul1	301	1131	sul1_10	1	sul1_10	custom	1	95.07	95.07	100.0	Sulfamethoxazole	0.98	high
+contig_4_borderline_tetM	501	2420	tet(M)_1	1	tet(M)_1	custom	1	90.0	90.0	100.0	Doxycycline;Minocycline;Tetracycline	0.96	high

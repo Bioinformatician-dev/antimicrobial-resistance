@@ -1,0 +1,77 @@
+{
+  "sample": "demo_assembly",
+  "databases_queried": [
+    "custom"
+  ],
+  "thresholds": {
+    "min_identity": 80.0,
+    "min_coverage": 80.0
+  },
+  "n_loci": 4,
+  "calls": [
+    {
+      "contig": "contig_1_plasmid_ctxm",
+      "locus_start": 401,
+      "locus_end": 1276,
+      "primary_gene": "blaCTX-M-150_1",
+      "gene_names": "blaCTX-M-150_1",
+      "n_allele_variants": 1,
+      "supporting_databases": "custom",
+      "n_databases": 1,
+      "best_identity": 99.09,
+      "mean_identity": 99.09,
+      "best_coverage": 100.0,
+      "drugs": "Amoxicillin;Ampicillin;Aztreonam;Cefepime;Cefotaxime;Ceftazidime;Ceftriaxone;Piperacillin;Ticarcillin",
+      "confidence_score": 0.996,
+      "confidence": "high"
+    },
+    {
+      "contig": "contig_2_chromosome_mecA",
+      "locus_start": 801,
+      "locus_end": 2807,
+      "primary_gene": "mecA_1",
+      "gene_names": "mecA_1",
+      "n_allele_variants": 1,
+      "supporting_databases": "custom",
+      "n_databases": 1,
+      "best_identity": 100.0,
+      "mean_identity": 100.0,
+      "best_coverage": 100.0,
+      "drugs": "Amoxicillin;Amoxicillin+Clavulanic_acid;Ampicillin;Ampicillin+Clavulanic_acid;Cefepime;Cefixime;Cefotaxime;Cefoxitin;Ceftazidime;Ertapenem;Imipenem;Meropenem;Piperacillin;Piperacillin+Tazobactam",
+      "confidence_score": 1.0,
+      "confidence": "high"
+    },
+    {
+      "contig": "contig_3_integron_sul1",
+      "locus_start": 301,
+      "locus_end": 1131,
+      "primary_gene": "sul1_10",
+      "gene_names": "sul1_10",
+      "n_allele_variants": 1,
+      "supporting_databases": "custom",
+      "n_databases": 1,
+      "best_identity": 95.07,
+      "mean_identity": 95.07,
+      "best_coverage": 100.0,
+      "drugs": "Sulfamethoxazole",
+      "confidence_score": 0.98,
+      "confidence": "high"
+    },
+    {
+      "contig": "contig_4_borderline_tetM",
+      "locus_start": 501,
+      "locus_end": 2420,
+      "primary_gene": "tet(M)_1",
+      "gene_names": "tet(M)_1",
+      "n_allele_variants": 1,
+      "supporting_databases": "custom",
+      "n_databases": 1,
+      "best_identity": 90.0,
+      "mean_identity": 90.0,
+      "best_coverage": 100.0,
+      "drugs": "Doxycycline;Minocycline;Tetracycline",
+      "confidence_score": 0.96,
+      "confidence": "high"
+    }
+  ]
+}
