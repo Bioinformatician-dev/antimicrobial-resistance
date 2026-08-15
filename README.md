@@ -1,6 +1,6 @@
 # AMR-consensus
 
-**Multi-database consensus detection of antimicrobial resistance (AMR) genes from bacterial assemblies.**
+**Multi-database consensus detection of antimicrobial resistance (AMR) genes from bacterial assemblies**
 
 Most AMR detection tools query a single reference database (ResFinder, CARD, or NCBI AMRFinderPlus) and report whatever that database says. In practice, labs often run two or three of these tools and manually cross-check results, because no single database has complete or error-free curation. `amr-consensus` automates that cross-check: it queries multiple databases in one run, reconciles overlapping calls into a single locus-level result, and reports a confidence score based on cross-database agreement and alignment quality.
 
